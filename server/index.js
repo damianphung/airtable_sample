@@ -4,6 +4,10 @@
 
 // connecting to backend with static site
 // https://www.smashingmagazine.com/2018/02/dynamic-website-static-content-cdn/
+
+
+// Using JWT to restrict access to auth'ed users.
+// https://www.sitepoint.com/spa-social-login-google-facebook/
 const dotenv = require('dotenv');
 dotenv.config({ path: '.env' });
 
